@@ -25,7 +25,7 @@ export default function FullScreenToggle({
       onClick={() =>
         setShowFullScreen((prevShowFullScreen) => !prevShowFullScreen)
       }
-      btnStyles={`py-0 h-[24px] absolute z-50 left-1/2 ml-[-24px] ${
+      btnStyles={`py-0 h-[24px] absolute z-20 left-1/2 ml-[-24px] ${
         showFullScreen ? "bottom-0" : "top-1/2 mt-[-4px]"
       } `}
     />
@@ -36,7 +36,7 @@ export default function FullScreenToggle({
       onClick={() =>
         setShowFullScreen((prevShowFullScreen) => !prevShowFullScreen)
       }
-      btnStyles={`px-0 absolute z-50 top-1/2 ${
+      btnStyles={`px-0 absolute z-20 top-1/2 ${
         showFullScreen ? "right-0" : "right-1/3"
       } `}
     />
